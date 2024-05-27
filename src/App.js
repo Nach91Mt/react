@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Mensaje1 from './Mensajes.js'
 
-function App() {
+const Mensaje= () => {
+  return <h1>Hola mundos Nuevo</h1>
+}
+const App= () => {
+    const mensjae = 'Hola mundo'
+    
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Mensaje></Mensaje>
+      <Mensaje1 color='Red' message='hola probando modulos'></Mensaje1>
+      <Mensaje1 color='Blue' message='esto es un cambio de color'></Mensaje1>
+      <br></br>
+      {mensjae + ' evaluacion en JFX'}
     </div>
   );
 }
