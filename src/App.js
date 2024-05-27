@@ -4,6 +4,7 @@ import Mensaje1 from './Mensajes.js'
 const Mensaje= () => {
   return <h1>Hola mundos Nuevo</h1>
 }
+
 const App= () => {
     const mensjae = 'Hola mundo'
     
